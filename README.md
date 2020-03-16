@@ -32,3 +32,12 @@ Vertex   Distance from Source
 6                9
 7                8
 8                14
+
+
+# Notes for Bellman Ford Implementation
+
+1) Bellman-Ford works better (better than Dijksra’s) for distributed systems. Unlike Dijksra’s where we need to find minimum value of all vertices, in Bellman-Ford, edges are considered one by one.
+
+2) Negative weights are found in various applications of graphs. For example instead of paying costs for a path, we may get some advantage if we follow this path.
+
+
