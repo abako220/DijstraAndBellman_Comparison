@@ -19,4 +19,16 @@ c. To evaluate the performance of the algorithms in terms of memory utilization 
 4) Time Complexity of the implementation is O(V^2). If the input graph is represented using adjacency list, it can be reduced to O(E log V) with the help of binary heap. Please see
 Dijkstra’s Algorithm for Adjacency List Representation for more details.
 
-5) Dijkstra’s algorithm doesn’t work for graphs with negative weight edges. For graphs with negative weight edges, Bellman–Ford algorithm can be used, we will soon be discussing it as a separate post.
+5) Dijkstra’s algorithm doesn’t work for graphs with negative weight edges. For graphs with negative weight edges, Bellman–Ford algorithm can be used.
+
+Output for Dijkstra’s algorithm:
+Vertex   Distance from Source
+0                0
+1                4
+2                12
+3                19
+4                21
+5                11
+6                9
+7                8
+8                14
