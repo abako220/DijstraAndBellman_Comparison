@@ -40,4 +40,16 @@ Vertex   Distance from Source
 
 2) Negative weights are found in various applications of graphs. For example instead of paying costs for a path, we may get some advantage if we follow this path.
 
+Vertex distance from source:
+
+0                0
+1                0
+2                1
+3                -1
+4                2
+5                2
+6                3
+7                -2
+8                4
+9                1
 
