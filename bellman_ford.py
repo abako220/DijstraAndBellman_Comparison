@@ -49,7 +49,7 @@ class Graph:
  
         for u, v, w in self.graph:
                 if dist[u] != float("Inf") and dist[u] + w < dist[v]:
-                        print "Graph contains negative weight cycle"
+                        print ("Graph contains negative weight cycle")
                         return
                          
         # print all distance
